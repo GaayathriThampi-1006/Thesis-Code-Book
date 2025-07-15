@@ -20,24 +20,21 @@ The analysis was conducted using two pilot scans of a highly experienced yogi. E
 
 
 Thesis Code Book/
-│
 ├── Design Matrix/
-│   ├── build\_design\_matrix\_P1.py
-│   └── build\_design\_matrix\_P2.py
-│
+│   ├── build_design_matrix_P1.py
+│   └── build_design_matrix_P2.py
 ├── Masks/
-│   ├── mask\_formation\_MNI/
-│   │   ├── \[ROI]\_MASK.py (e.g., dACC\_MASK.py)
-│   ├── mni\_Native\_maskcomparison.py
-│   └── native\_maskoverlays.py
-│
-├── ROI\_GLM\_Analysis/
-│   ├── P1\_ROI\_GLM\_ANALYSIS.py
-│   └── P2\_ROI\_GLM\_ANALYSIS\_AvY.py
-│
+│   └── mask_formation_MNI/
+│       ├── [ROI]_MASK.py (e.g., dACC_MASK.py)
+│       ├── mni_Native_maskcomparison.py
+│       └── native_maskoverlays.py
+├── ROI_GLM_Analysis/
+│   ├── P1_ROI_GLM_ANALYSIS.py
+│   └── P2_ROI_GLM_ANALYSIS_AvY.py
 ├── utils/
-│   ├── config.py
-│   └── data.py
+│   └── config.py
+└── data.py
+
 
 
 
