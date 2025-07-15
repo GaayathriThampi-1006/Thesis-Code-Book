@@ -19,21 +19,7 @@ The analysis was conducted using two pilot scans of a highly experienced yogi. E
 ## Repository Structure
 
 
-Thesis Code Book/
-├── Design Matrix/
-│ ├── build_design_matrix_P1.py
-│ └── build_design_matrix_P2.py
-├── Masks/
-│ └── mask_formation_MNI/
-│ ├── [ROI]_MASK.py (e.g., dACC_MASK.py)
-│ ├── mni_Native_maskcomparison.py
-│ └── native_maskoverlays.py
-├── ROI_GLM_Analysis/
-│ ├── P1_ROI_GLM_ANALYSIS.py
-│ └── P2_ROI_GLM_ANALYSIS_AvY.py
-├── utils/
-│ ├── config.py
-│ └── data.py
+
 <img width="345" height="367" alt="image" src="https://github.com/user-attachments/assets/7d2475a3-f9ca-4caa-a917-41883242d52b" />
 
 
