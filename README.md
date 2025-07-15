@@ -34,6 +34,8 @@ Thesis Code Book/
 ├── utils/
 │ ├── config.py
 │ └── data.py
+<img width="345" height="367" alt="image" src="https://github.com/user-attachments/assets/7d2475a3-f9ca-4caa-a917-41883242d52b" />
+
 
 
 
