@@ -25,7 +25,7 @@ def main(scan_id="P1S4"):
     else:
         raise ValueError(f"Unknown scan ID {scan_id} – please provide a supported Ajna or Anahata scan")
 
-    print(f"🔧 Building GLM for {scan_id} ({meditation})...")
+    print(f"Building GLM for {scan_id} ({meditation})...")
 
 
     output_dir = os.path.join(OUTPUT_PATH, "GLM_designs")
@@ -132,11 +132,11 @@ def main(scan_id="P1S4"):
     # === Save design matrix and plot ===
     design_matrix.to_csv(os.path.join(output_dir, f"{scan_id}_{confound_str}_glm_design_matrix.tsv"), sep="\t")
 
-    # 💡 Inspect condition number here
+    # Inspect condition number here
     cond_number = np.linalg.cond(design_matrix.values)
-    print(f"🔍 Condition number of design matrix: {cond_number:.2f}")
+    print(f"Condition number of design matrix: {cond_number:.2f}")
     if cond_number > 1000:
-        print("⚠️ Warning: Design matrix is poorly conditioned — check for collinearity!")
+        print("Warning: Design matrix is poorly conditioned — check for collinearity!")
 
     plot_design_matrix(design_matrix, rescale=False)
     plt.tight_layout()
@@ -144,7 +144,7 @@ def main(scan_id="P1S4"):
     plt.close()
     plt.show
 
-    print(f"✅ Saved design matrix and design matrix plot to {output_dir}")
+    print(f"Saved design matrix and design matrix plot to {output_dir}")
 
 
 # === ===
